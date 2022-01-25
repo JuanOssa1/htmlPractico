@@ -26,10 +26,11 @@ html{
 .search-section{
     display: flex;
     flex-direction: column;
-    height: 894px;
+    /*height: 894px;*/
     width: 100%;
     align-items: center;
     padding-top: 130px;
+    padding-bottom: 488px;
 }
 figure{
     display: flex;
