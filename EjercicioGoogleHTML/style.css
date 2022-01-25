@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: end;
+    align-items: center;
+    
+}
+.nav li {
+    font-size: 1.4rem;
+    padding: 10px;
+    font-family: 'Noto Sans';  
+}
+.drivelogo {
+    height: 30px;
+    width: 30px;
+}
+.search-section{
+    display: flex;
+    flex-direction: column;
+    height: 894px;
+    width: 100%;
+    align-items: center;
+    padding-top: 130px;
+}
+figure{
+    display: flex;
+    justify-content:center;
+    padding: 10px;
+}
+.main-footer{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    background-color:gainsboro;
+}
+.main-footer > div{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.left-footer{
+    width: 50%;
+    justify-content: left;
+}
+.left-footer li{
+    font-size: 1.4rem;
+    padding: 10px;
+    font-family: 'Noto Sans';
+    
+}
+.right-footer{
+    width: 50%;
+    justify-content: right;
+   
+}
+.right-footer li{
+    font-size: 1.4rem;
+    padding: 10px;
+    font-family: 'Noto Sans';  
+}
+
+
